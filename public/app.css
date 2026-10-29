@@ -1,0 +1,140 @@
+*:focus{outline: none;}
+
+*{outline: none;}
+button:focus{outline: none;}
+
+a {color: orange;}
+a:hover{color: rgba(0,0,0,0.8);}
+
+.nounderline {text-decoration: none;}
+.noborder {border: none; box-shadow: 0px 0px 0px;}
+.margin-v-auto {margin-top: auto; margin-bottom: auto;}
+
+.margin-h-auto{margin-left: auto; margin-right: auto;}
+
+
+
+
+.disabled {background-color: rgb(211, 211, 211,0.3);}
+
+
+/* sections */
+.used {background-color: rgb(255, 255, 0,0.5);}
+.record {background-color: rgb(245, 245, 245,0.4);
+        background-color: white;
+           transition: 0.3s;
+        }
+
+.record:hover {
+   background-color: whitesmoke; 
+}
+
+.recipeRecord{background-size: cover;
+             background-repeat: no-repeat; 
+              }
+
+.title {background-color: rgb(170, 126, 16,1); color: white;}
+.title {background-color: rgb(255, 255, 255,1); color: rgb(170, 126, 16,1);}
+
+
+
+
+.percentage1 {
+  height:40px;
+  background-color: rgb(0, 128, 0,0.8);
+  /* background-image:linear-gradient(to right,rgb(0, 128, 0,1), rgb(0, 128, 0,0.8), rgb(0, 128, 0,0.6),rgb(0, 128, 0,0.4),rgb(0, 128, 0,0.2)); */
+  border: none;
+  color: white;
+  
+}
+
+.percentage1:hover {  
+  background-color: rgb(0, 128, 0,0.8);
+  /* background-image:linear-gradient(to right,rgb(0, 128, 0,1), rgb(0, 128, 0,0.8), rgb(0, 128, 0,0.6),rgb(0, 128, 0,0.4),rgb(0, 128, 0,0.2)); */
+  color: white;
+}
+
+.percentage2 {
+  height:40px;    
+  background-color: rgb(245, 245, 245,0.7);  
+  color: rgba(0,0,0,0.7);
+  
+}
+
+.percentage2:hover {
+  
+  background-color: rgb(245, 245, 245,0.7);
+  color: rgba(0,0,0,0.7);
+  
+}
+
+
+.membrane {background-color: rgb(255, 255, 255,1);
+          
+        }
+
+.membrane2 { background-color: rgba(255, 255, 255,0.95);}
+
+/* logo */
+.logo {height: 100px;}
+
+
+/* colours */
+.lightblue {color: lightsteelblue;}
+.grey {color: rgba(0,0,0,0.5);}
+.lightblack {color: rgba(0,0,0,0.6);}
+.orange{color: orange;}
+.coral {color: coral;}
+.red {color: red;}
+.brown {color: burlywood;}
+.golden {color: goldenrod;}
+
+.darkgolden{color: rgb(143, 110, 27);}
+.black {color: rgba(0,0,0,0.8);}
+.green {color: green;}
+.error {color: red;}
+.success {color: green; background-color: rgb(0, 128, 0,0.2);}
+
+/* buttons */
+
+.btn-dark:hover {background-color: black;}
+
+.btn-light {color: blue; 
+            background-color:rgb(135, 206, 250,0.1);
+            
+            }
+
+
+.btn-light:hover {color: blue; 
+  background-color:rgb(135, 206, 250,0.1);
+  border: solid rgb(0, 0, 255,0) thin;}
+
+
+  /* images */
+
+  
+
+/* input */
+input{
+  border: none;
+  border-bottom: solid whitesmoke thin;
+}
+
+/* fonts */
+
+i {font-size: large;}
+
+
+
+/* Transition */
+
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
